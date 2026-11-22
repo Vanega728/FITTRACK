@@ -1,0 +1,17 @@
+{
+  "name": "fittrack",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FITTRACK training tracker for Vercel",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "check": "node --check api/[...path].js && node --check public/app.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "mysql2": "^3.14.1"
+  }
+}
